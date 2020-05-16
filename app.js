@@ -153,8 +153,7 @@ var testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 var mul1 =1
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-    var i =0
-    for ( i = 0; i < testDynamicArray.length; i++) {
+    for ( var i = 0; i < testDynamicArray.length; i++) {
         var temp2 = testDynamicArray[i];
         mul1 = multiply(mul1, temp2)[0];
         var msg0=`The numbers 1,2,3,4,5 have a product of 120.`
